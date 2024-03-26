@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("7009643-cute-dolphin-wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center ;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    opacity: 0.9;
+    
+}
+.countdown-container {
+    display: flex;
+    
+}
+h1 {
+    font-size: 3rem;
+    margin-top: 20rem;
+    /* margin-top: -5rem; */
+    color: white;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+    color: white;
+}
+
+.countdown-el {
+    text-align: center;
+
+}
+.countdown-el span {
+    font-size: 1rem;
+    color: white;
+}
